@@ -4,5 +4,13 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"terminal.integrated.cwd": "./src",
+		"terminal.integrated.env.windows": {
+			"file": "${workspaceFolder}/.env"
+		},
+		"python.experiments.enabled": false,
+		"python.terminal.activateEnvInCurrentTerminal": true,
+		"workbench.panel.defaultLocation": "right"
+	}
 }
